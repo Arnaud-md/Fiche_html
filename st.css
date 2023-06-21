@@ -5,13 +5,31 @@ h2 {
     text-decoration: underline;
     color:midnightblue
 }
-h3 {
-    text-decoration:;
+#name {
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid grey;
+    color:darkgreen;
+    margin-bottom: 50%;
+}
+#padding {
+   
 }
 td {
-    border:solid grey;
+    border:3px solid grey;
     text-align: center;
     color:midnightblue;
+}
+#report {
+    border:3px solid grey;
+    text-align: center;
+    color:darkred;
+}
+th {
+    border-bottom:3px solid grey;
+}
+#no_border {
+    border: 0px;
 }
 #menu {
     border-right: 3px solid grey;
@@ -21,5 +39,8 @@ td {
     margin-right: 20%;
     margin-top: 5%;
 }
-#name {
+
+table {
+    border: 1px solid green;
+    border-collapse: collapse;
 }
