@@ -1,0 +1,22 @@
+body {
+    display: flex;
+}
+h2 {
+    text-decoration: underline;
+    color:midnightblue
+}
+h3 {
+    text-decoration:;
+}
+td {
+    border:solid grey;
+    text-align: center;
+    color:midnightblue;
+}
+#menu {
+    border-right: 3px solid grey;
+}
+#result {
+    margin-left: 10%;
+    margin-right: 20%;
+}
