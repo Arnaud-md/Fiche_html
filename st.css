@@ -5,7 +5,7 @@ h2 {
     text-decoration: underline;
     color:midnightblue
 }
-#name {
+.name {
     text-align: center;
 
     border: solid grey;
@@ -17,6 +17,9 @@ td {
     border:3px solid grey;
     text-align: center;
     color:midnightblue;
+}
+li {
+    cursor: grab;
 }
 #report {
     border:3px solid grey;
@@ -30,6 +33,21 @@ td {
     text-align: center;
     color:black;
     margin: 0px;
+    margin-bottom: 50px;
+}
+#attribute {
+
+    text-align: center;
+    text-decoration: underline;
+    color:darkslategray;
+    margin: 0px;
+    
+}
+#attribute_text {
+ 
+    color:black;
+    margin: 0px;
+
 }
 th {
     border-bottom:3px solid grey;
