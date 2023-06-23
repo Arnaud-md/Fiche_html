@@ -6,15 +6,13 @@ h2 {
     color:midnightblue
 }
 #name {
-    padding-left: 50px;
-    padding-right: 50px;
+    text-align: center;
+
     border: solid grey;
     color:darkgreen;
-    margin-bottom: 50%;
+    margin-bottom: 50px;
 }
-#padding {
-   
-}
+
 td {
     border:3px solid grey;
     text-align: center;
@@ -24,6 +22,14 @@ td {
     border:3px solid grey;
     text-align: center;
     color:darkred;
+    margin: 0px;
+    
+}
+#report_text {
+    border:3px solid grey;
+    text-align: center;
+    color:black;
+    margin: 0px;
 }
 th {
     border-bottom:3px solid grey;
