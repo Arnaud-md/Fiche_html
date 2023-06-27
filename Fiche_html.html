@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="st.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
+    <div class="container">
     <section id="menu_top">
         <ul id="ul">
             <li id="li"><a id="a" href="#struct">Balises de structure</a></li>
@@ -18,6 +20,7 @@
 
 
     </section>
+    </div>
     <div class="container" id="display">
     <section id="menu">
     <h2 id="struct"> Balises de structure</h2>
@@ -55,9 +58,9 @@
                 </tr>
                 <tr>
                     <td><a href="#br">br</a></td>
-                    <td><a href="#li">li</a></td>
-                    <td><a href="#ol">ol</a></td>
-                    <td><a href="#ul">ul</a></td>
+                    <td><a href="#li_name">li</a></td>
+                    <td><a href="#ol_name">ol</a></td>
+                    <td><a href="#ul_name">ul</a></td>
                 </tr>
 
             
@@ -641,7 +644,7 @@
                                                     
 
 
-        <h3 class="name" id="li">li</h3>
+        <h3 class="name" id="li_name">li</h3>
 
  
         <h4 id="report">Description</h4>
@@ -673,7 +676,7 @@
     <li>type</li>
     </ul>
 
-        <h3 class="name" id="ol">ol</h3>
+        <h3 class="name" id="ol_name">ol</h3>
 
  
         <h4 id="report">Description</h4>
@@ -705,7 +708,7 @@
     <li>type</li>
     </ul>
 
-        <h3 class="name" id="ul">ul</h3>
+        <h3 class="name" id="ul_name">ul</h3>
 
  
         <h4 id="report">Description</h4>
@@ -1134,7 +1137,8 @@
 
     </section>
     </div>
-    <section id="display">
+    <div class="container">
+    <section id="display_func">
         <section id="functionnalities">
             <h3 id="margin_right">Fonctionnalité 1</h3>
             <p id="margin_right">Créer un site web à partir de VSCode avec une configuration de PC sur Ubuntu</p>
@@ -1148,6 +1152,9 @@
             <p id="margin_right">Utiliser le framework Bootstrap pour générer un affichage "responsive" qui s'adapte à la taille de l'écran</p>
         </section>
     </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
